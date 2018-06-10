@@ -1,0 +1,33 @@
+body, html {
+      height: 100%;
+      margin: 0;
+  }
+
+  .bg {
+      /* The image used */
+      background-image: url("../img/zvaigzdes1.jpg");
+
+      /* Full height */
+      height: 100%;
+
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+.sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 1);
+}
+
+nav{
+      background-color: rgba(0, 0, 0, 0);
+      box-shadow: none;
+}
+.navbar-fixed {
+      position: absolute;z-index:999999999;
+      background-color: rgba(255, 255, 255, 0);
+}
